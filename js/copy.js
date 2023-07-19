@@ -12,6 +12,6 @@ if (userAge < 18) {
 
 // far comparire in html gli elementi
 
-document.getElementById("userDistance").innerHTML = userDistance + " Km";
-document.getElementById("userAge").innerHTML = userAge + " anni";
-document.getElementById("userPrice").innerHTML = userPrice.toFixed(2) + " €";
+document.getElementById("userDistance").innerHTML = userDistance;
+document.getElementById("userAge").innerHTML = userAge;
+document.getElementById("userPrice").innerHTML = userPrice.toFixed(2);

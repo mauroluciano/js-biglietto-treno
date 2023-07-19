@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+body {
+  font-size: 24px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: #006c67;
+}
+
+.box {
+  width: 400px;
+  height: 400px;
+  background-color: white;
+  border-radius: 20px;
+  margin-top: 3rem;
+  padding: 50px;
+}
+
+.box div {
+  padding: 18px 0;
+  border-bottom: 1px solid lightgreen;
+}
+
+#userPrice {
+  font-weight: bold;
+  font-size: 30px;
+}
